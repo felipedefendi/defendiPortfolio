@@ -2,12 +2,12 @@ const pageTitle = document.querySelector('title');
 pageTitle.textContent = 'Meu Portfolio';
 
 const routes = {
-  '/': 'index.html',
-  '/contatos': 'contatos.html',
-  '/projetos': 'projetos.html',
-  '/curriculo': 'curriculo.html',
-  '/sobre': 'sobre.html',
-  '/tecnologias': 'tecnologias.html',
+  '/defendiPortfolio': 'index.html',
+  '/defendiPortfolio/contatos': 'contatos.html',
+  '/defendiPortfolio/projetos': 'projetos.html',
+  '/defendiPortfolio/curriculo': 'curriculo.html',
+  '/defendiPortfolio/sobre': 'sobre.html',
+  '/defendiPortfolio/tecnologias': 'tecnologias.html',
 };
 
 const mimeTypes = {
