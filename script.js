@@ -2,8 +2,8 @@ const pageTitle = document.querySelector('title');
 pageTitle.textContent = 'Meu Portfolio';
 
 const routes = {
-  '/defendiPortfolio': 'index.html',
-  '/defendiPortfolio/contatos': 'contatos.html',
+  '//defendiPortfolio/': 'index.html',
+  '/defendiPortfolio/contatos/': 'contatos.html',
   '/defendiPortfolio/projetos': 'projetos.html',
   '/defendiPortfolio/curriculo': 'curriculo.html',
   '/defendiPortfolio/sobre': 'sobre.html',
